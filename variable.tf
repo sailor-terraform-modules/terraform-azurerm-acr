@@ -17,15 +17,15 @@ variable "sku" {
 variable "admin_enabled" {
   type        = bool
   description = "whether admin is enabled for the acr"
-  default = false
+  default     = false
 }
 variable "public_network_access_enabled" {
   type        = bool
   description = "whether public_network_access_enabled for the acr"
-  default = true
+  default     = true
 }
 variable "export_policy_enabled" {
   type        = bool
   description = "whether exportpolicy is enabled for the acr"
-  default = true
+  default     = true
 }
